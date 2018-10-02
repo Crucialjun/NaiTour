@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageView
+        android:contentDescription="@string/nairobi_night_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hilton2"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_above="@id/travel_guide"
+        android:id="@+id/nairobi_kenya"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nairobi_kenya"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textAllCaps="true"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:paddingTop="16dp"
+        style="@style/AudioFileInfoOverlayText"
+        android:id="@+id/travel_guide"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_line"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:fontFamily="@font/alegreya_bold_italic"
+        android:shadowColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</RelativeLayout>
