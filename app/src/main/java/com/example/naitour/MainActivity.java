@@ -4,6 +4,9 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -83,6 +87,8 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        Fragment fragment = null;
+
         if (id == R.id.nav_home) {
             //Display the about page when about is clicked
             RelativeLayout mainLayout = findViewById(R.id.main_container);
@@ -90,17 +96,36 @@ public class MainActivity extends AppCompatActivity
             View layout = inflater.inflate(R.layout.content_main, null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_about) {
+            RelativeLayout mainLayout = findViewById(R.id.main_container);
+            LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.about_page, null);
+            mainLayout.removeAllViews();
+            mainLayout.addView(layout);
+            setTitle("About Nairobi");
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_top) {
+            RelativeLayout mainLayout = findViewById(R.id.main_container);
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.main_container,new TopExperiencesFragment());
+            mainLayout.removeAllViews();
+            ft.commit();
+            setTitle("Top places to experience ");
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_restaurants) {
+            RelativeLayout mainLayout = findViewById(R.id.main_container);
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.main_container,new RestaurantsFragment());
+            mainLayout.removeAllViews();
+            ft.commit();
+            setTitle("Restaurants ");
 
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

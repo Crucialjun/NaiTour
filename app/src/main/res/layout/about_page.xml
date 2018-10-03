@@ -34,12 +34,12 @@
                 app:fontFamily="@font/alegreya_bold_italic" />
 
             <TextView
-                android:padding="4dp"
                 android:id="@+id/nairobi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/kenya"
                 android:layout_centerHorizontal="true"
+                android:padding="4dp"
                 android:text="@string/nairobi"
                 android:textAllCaps="true"
                 android:textColor="@android:color/white"
@@ -69,7 +69,7 @@
             android:text="@string/welcome_message"
             android:textSize="16sp"
             android:textStyle="italic"
-            android:padding="4dp"
+            android:padding="8dp"
             android:textColor="@android:color/black"/>
 
         <TextView
@@ -81,7 +81,7 @@
             android:text="@string/aboutA"
             android:textSize="16sp"
             android:textStyle="italic"
-            android:padding="4dp"
+            android:padding="8dp"
             android:textColor="@android:color/black"/>
 
         <TextView
@@ -93,7 +93,7 @@
             android:text="@string/aboutB"
             android:textSize="16sp"
             android:textStyle="italic"
-            android:padding="4dp"
+            android:padding="8dp"
             android:textColor="@android:color/black"/>
 
 
