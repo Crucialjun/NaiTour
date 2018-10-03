@@ -2,8 +2,6 @@
     <string name="app_name">NaiTour</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="nairobi_night_photo">Nairobi Night Photo</string>
@@ -15,12 +13,11 @@
     <string name="kenya">Kenya</string>
     <string name="nairobi">Nairobi</string>
     <string name="the_city_reaching_for_the_skies">The city reaching for the skies</string>
-    <string name="aboutA">Nairobi\'s polarising character ensures that the city is reviled and loved in equal measure, and even those who love it might well admit that it is  the kind of place many rave about only once they\'re away from it. For those who call it home, the city\'s charms include a vibrant cultural life, fabolous place to eat and exciting nightlife. Its detractors point to its horrendoud traffic, poor safety levels (\'Nairoberry\' is a common expat nickname) and its less-than - gorgeous apperance.</string>
+    <string name="aboutA">Nairobi\'s polarising character ensures that the city is reviled and loved in equal measure, and even those who love it might well admit that it is  the kind of place many rave about only once they\'re away from it. For those who call it home, the city\'s charms include a vibrant cultural life, fabolous place to eat and exciting nightlife. Its detractors point to its horrendoud traffic, poor safety levels (\'Nairoberry\' is a common expat nickname) and its less-than - gorgeous appearance.</string>
     <string name="aboutB">However, with a fabolous national park on its doorstep, some wildlife-centric attractions, the excellent National Museum and a series of quirky sights, Nairobi\'s reality - like that of so many places with a bad reputation - will often come as a pleasant suprise</string>
     <string name="about">About</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="top_experiences">Top Experiences</string>
     <string name="restaurants">Restaurants</string>
 

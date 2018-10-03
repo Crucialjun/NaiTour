@@ -1,18 +1,17 @@
 package com.example.naitour;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import java.security.spec.ECField;
 import java.util.ArrayList;
 
+/**
+ * The type Restaurants fragment.
+ */
 public class RestaurantsFragment extends Fragment {
 
     @Override
@@ -28,7 +27,6 @@ public class RestaurantsFragment extends Fragment {
         experiences.add(new Experience(R.drawable.roadhouse_grill, "Road House Grill"));
         experiences.add(new Experience(R.drawable.karen_blixen_coffee, "Karen Blixen's Coffee Garden"));
         experiences.add(new Experience(R.drawable.talisman, "Talisman"));
-        experiences.add(new Experience(R.drawable.al_yusra, "Al - Yusra"));
 
 
 

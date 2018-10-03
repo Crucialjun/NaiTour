@@ -17,7 +17,6 @@
         />
     <TextView
         android:layout_above="@id/travel_guide"
-        android:id="@+id/nairobi_kenya"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:text="@string/nairobi_kenya"
