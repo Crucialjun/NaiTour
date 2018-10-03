@@ -42,11 +42,16 @@ public class ExperienceAdapter extends ArrayAdapter <Experience> {
         Experience currentPlaceImage = getItem(position);
         Experience currentPlaceName = getItem(position);
 
+
+
+
         ImageView placeImage = listItemView.findViewById(R.id.place_image);
         placeImage.setImageResource(Objects.requireNonNull(currentPlaceImage).getPlaceImage());
 
         TextView placeName = listItemView.findViewById(R.id.place_name);
         placeName.setText(currentPlaceName.getPlaceName());
+
+
 
 
 

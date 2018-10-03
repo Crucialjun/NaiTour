@@ -124,6 +124,14 @@ public class MainActivity extends AppCompatActivity
             ft.commit();
             setTitle("Restaurants ");
 
+        } else if (id == R.id.nav_facts){
+            //Display the facts page when  facts is clicked
+            RelativeLayout mainLayout = findViewById(R.id.main_container);
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.main_container,new FactsFragment());
+            mainLayout.removeAllViews();
+            ft.commit();
+            setTitle("Facts about Nairobi");
         }
 
 

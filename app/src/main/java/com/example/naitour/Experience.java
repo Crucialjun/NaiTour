@@ -6,6 +6,8 @@ package com.example.naitour;
 public class Experience {
     private int mPlaceImage;
     private String mPlaceName;
+    private String mFactTittle;
+    private String mFactBody;
 
     /**
      * Instantiates a new Experience.
@@ -16,6 +18,11 @@ public class Experience {
     public Experience(int placeImage,String placeName){
         mPlaceImage = placeImage;
         mPlaceName = placeName;
+    }
+
+    public Experience(String factTittle,String factBody){
+        mFactTittle = factTittle;
+        mFactBody = factBody;
     }
 
 
@@ -35,5 +42,13 @@ public class Experience {
      */
     public String getPlaceName() {
         return mPlaceName;
+    }
+
+    public String getFactTittle() {
+        return mFactTittle;
+    }
+
+    public String getFactBody() {
+        return mFactBody;
     }
 }
