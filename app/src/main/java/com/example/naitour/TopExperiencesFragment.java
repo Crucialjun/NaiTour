@@ -23,10 +23,10 @@ public class TopExperiencesFragment extends Fragment {
         ArrayList<Experience> experiences = new ArrayList<>();
 
 
-        experiences.add(new Experience(R.drawable.national_park, "Nairobi National Park"));
-        experiences.add(new Experience(R.drawable.david_sheldrick, "David Sheldrick Wildlife Trust"));
-        experiences.add(new Experience(R.drawable.karen_blixen, "Karen Blixen's House and Museum"));
-        experiences.add(new Experience(R.drawable.national_museum, "Nairobi National Museum"));
+        experiences.add(new Experience(R.drawable.national_park, getString(R.string.national_park)));
+        experiences.add(new Experience(R.drawable.david_sheldrick, getString(R.string.david_shel)));
+        experiences.add(new Experience(R.drawable.karen_blixen, getString(R.string.karen_blix)));
+        experiences.add(new Experience(R.drawable.national_museum, getString(R.string.national_museum)));
 
 
 

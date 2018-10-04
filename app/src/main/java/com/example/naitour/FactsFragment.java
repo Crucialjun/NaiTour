@@ -33,6 +33,9 @@ public class FactsFragment extends Fragment {
 
         facts.add(new Experience(getString(R.string.nairobi_history), getString(R.string.nairobi_history_body)));
         facts.add(new Experience(getString(R.string.get_there),getString(R.string.get_there_body)));
+        facts.add(new Experience(getString(R.string.sights_souns),getString(R.string.sight_sounds_body)));
+        facts.add(new Experience(getString(R.string.culture_lifestyle), getString(R.string.culture_lifestyle_body)));
+        facts.add(new Experience(getString(R.string.doing_business),getString(R.string.doing_business_body)));
 
 
 

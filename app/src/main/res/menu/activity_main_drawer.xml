@@ -11,7 +11,7 @@
             android:title="@string/home"/>
         <item
             android:id="@+id/nav_about"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_info"
             android:title="@string/about" />
         <item
             android:id="@+id/nav_top"
@@ -19,12 +19,16 @@
             android:title="@string/top_experiences" />
         <item
             android:id="@+id/nav_restaurants"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_hotel"
             android:title="@string/restaurants" />
         <item
             android:id="@+id/nav_facts"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_lightbulb_outline"
             android:title="@string/facts_about_nairobi" />
+        <item
+            android:id="@+id/nav_attractions"
+            android:icon="@drawable/ic_star"
+            android:title="@string/top_attrcations" />
     </group>
 
 </menu>

@@ -23,10 +23,10 @@ public class RestaurantsFragment extends Fragment {
         ArrayList<Experience> experiences = new ArrayList<>();
 
 
-        experiences.add(new Experience(R.drawable.carnivore, "Carnivore"));
-        experiences.add(new Experience(R.drawable.roadhouse_grill, "Road House Grill"));
-        experiences.add(new Experience(R.drawable.karen_blixen_coffee, "Karen Blixen's Coffee Garden"));
-        experiences.add(new Experience(R.drawable.talisman, "Talisman"));
+        experiences.add(new Experience(R.drawable.carnivore, getString(R.string.carnivore)));
+        experiences.add(new Experience(R.drawable.roadhouse_grill, getString(R.string.road_house)));
+        experiences.add(new Experience(R.drawable.karen_blixen_coffee, getString(R.string.karen_blix_coffee)));
+        experiences.add(new Experience(R.drawable.talisman, getString(R.string.talisman)));
 
 
 

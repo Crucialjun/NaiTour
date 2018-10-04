@@ -19,15 +19,40 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="top_experiences">Top Experiences</string>
-    <string name="restaurants">Restaurants</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="facts_about_nairobi">Facts About Nairobi</string>
     <string name="nairobi_history_body">Nairobi began in the late 1890s as a railway camp, where the British rested as they built the \'lunatic express\' - the Mombasa to Uganda railway line. It was originally named \'Ewaso Nai´beri\', but the British had difficulty pronouncing this and, instead, coined their own name \'Nairobi\'. Because of its central location in Kenya, Nairobi later became the British provincial capital and, finally, the capital city of Kenya</string>
     <string name="nairobi_history">1. Nairobi History</string>
     <string name="get_there_body">If you are flying to Kenya, Nairobi is the perfect starting point for traveling to the various areas of the country. It\'s centrally located, with an international airport and converging road network connecting it to most parts of Kenya. International airlines fly to Nairobi from Europe, the United States, Asia, the Middle East, Australia and other places. Nairobi is also the main airline hub to most other African countries and destinations. The main railway line also passes through Nairobi, and there are plenty of private and public transportation options for traveling between Nairobi and other Kenyan cities.</string>
     <string name="get_there">2. How to get there</string>
+    <string name="sights_souns">3. Sights, Sounds, Attractions in Nairobi</string>
+    <string name="sight_sounds_body">Nairobi, being the capital of Kenya, is a central attraction for Kenyan tourism and local and international activities and events. Before you think of visiting any other part of the country, check out Nairobi\'s wide variety of interesting attractions and sights</string>
+    <string name="culture_lifestyle_body">Everyday Nairobi life is a bustle of activity as people go about their business. Nairobians juggle work, and personal and family obligations, while still finding time to enjoy their social favorites and contribute to the community. For locals, a typical weekend in Nairobi is very busy, from business/networking functions, sporting events and recreational activities to family weddings, barbecues and church events. Nairobi never slows down.</string>
+    <string name="culture_lifestyle">4. Culture and Lifestyle of Nairobi</string>
+    <string name="doing_business">5. Doing Business in Nairobi</string>
+    <string name="doing_business_body">As the largest center of business and trade in East Africa, Nairobi is also the regional location of and headquarters for various international companies and organizations. The central business district also houses many of Kenya\'s big businesses and banks, including the Nairobi Stock Exchange. Being the center of government and its organizations, Nairobi is the city where most business is transacted</string>
+    <string name="david_shel">David Sheldrick Wildlife Trust</string>
+    <string name="david_shel_body">Occupying a plot within Nairobi National Park, this nonprofit trust was established in 1977, shortly after the death of David Sheldrick, who served as the antipoaching warden of Tsavo National Park. Together with his wife, Daphne, David pioneered techniques for raising orphaned black rhinos and elephants and reintroducing them into the wild, and the trust retains close links with Tsavo for these and other projects. The centre is one of Nairobi\'s most popular attractions, and deservedly so.</string>
+    <string name="top_attrcations">Top Attrcations</string>
+    <string name="national_park_body">Welcome to Kenya’s most accessible yet incongruous safari experience. Set on the city’s southern outskirts, Nairobi National Park (at 117 sq km, one of Africa’s smallest) has abundant wildlife that can, in places, be viewed against a backdrop of city skyscrapers and planes coming in to land – it\'s one of the only national parks on earth bordering a capital city. Remarkably, the animals seem utterly unperturbed by it all.</string>
+    <string name="national_park">Nairobi National Park</string>
+    <string name="museum_body">Kenya’s wonderful National Museum, housed in an imposing building amid lush, leafy grounds just outside the centre, has a good range of cultural and natural-history exhibits. Aside from the exhibits, check out the life-size fibreglass model of pachyderm celebrity Ahmed, the massive elephant that became a symbol of Kenya at the height of the 1980s poaching crisis. He was placed under 24-hour guard by President Jomo Kenyatta; he’s in the inner courtyard next to the shop.</string>
+    <string name="national_museum">National Museum</string>
+    <string name="giraffe_centre_body">This centre, which protects the highly endangered Rothschild’s giraffe, combines serious conservation with enjoyable activities. You can observe, hand-feed or even kiss one of the giraffes from a raised wooden structure, which is quite an experience. You may also spot warthogs snuffling about in the mud, and there’s an interesting self-guided forest walk through the adjacent Gogo River Bird Sanctuary.</string>
+    <string name="giraffe_centre">Giraffe Centre</string>
+    <string name="karen_blix_body">If you loved Out of Africa, you\'ll love this museum in the farmhouse where author Karen Blixen lived between 1914 and 1931. She left after a series of personal tragedies, but the lovely colonial house has been preserved as a museum. Set in expansive gardens, the museum is an interesting place to wander around, but the movie was actually shot at a nearby location, so don’t be surprised if things don’t look entirely as you expect!</string>
+    <string name="karen_blix"><![CDATA[Karen Blixen\'s House & Museum]]></string>
+    <string name="coming_soon">Contact details coming soon</string>
+    <string name="action">Action</string>
+    <string name="about_nairobi">About Nairobi</string>
+    <string name="top_places">Top places to experience</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="facts">Facts about Nairobi</string>
+    <string name="carnivore">Carnivore</string>
+    <string name="road_house">Road House Grill</string>
+    <string name="karen_blix_coffee">Karen Blixen\'s Coffee Garden</string>
+    <string name="talisman">Talisman</string>
 
 
 </resources>

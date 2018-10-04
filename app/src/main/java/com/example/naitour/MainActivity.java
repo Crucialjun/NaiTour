@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Contact details coming soon", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, R.string.coming_soon, Snackbar.LENGTH_LONG)
+                        .setAction(R.string.action, null).show();
             }
         });
 
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity
             View layout = inflater.inflate(R.layout.about_page, null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
-            setTitle("About Nairobi");
+            setTitle(R.string.about_nairobi);
 
         } else if (id == R.id.nav_top) {
             //Display the about page when top experiences is clicked
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.main_container,new TopExperiencesFragment());
             mainLayout.removeAllViews();
             ft.commit();
-            setTitle("Top places to experience ");
+            setTitle(R.string.top_places);
 
         } else if (id == R.id.nav_restaurants) {
             //Display the about page when  restaurants is clicked
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.main_container,new RestaurantsFragment());
             mainLayout.removeAllViews();
             ft.commit();
-            setTitle("Restaurants ");
+            setTitle(R.string.restaurants);
 
         } else if (id == R.id.nav_facts){
             //Display the facts page when  facts is clicked
@@ -131,7 +131,14 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.main_container,new FactsFragment());
             mainLayout.removeAllViews();
             ft.commit();
-            setTitle("Facts about Nairobi");
+            setTitle(R.string.facts);
+        } else if (id == R.id.nav_attractions){
+            RelativeLayout mainLayout = findViewById(R.id.main_container);
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.main_container,new AttractionsFragment());
+            mainLayout.removeAllViews();
+            ft.commit();
+            setTitle(getString(R.string.top_attrcations));
         }
 
 
